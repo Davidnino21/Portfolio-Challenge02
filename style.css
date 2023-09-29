@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 47px;
+    padding-left: 25px;
+    height: 60px;
+}
+
+nav {
+    padding-top: 65px;
+    padding-right: 25px;
+}
+
+nav ul {
+    padding-right: 20px;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white
+}
+
+nav a:hover {
+    color: red;
+}
+
+main {
+    border: double;
+    padding-left: 3%;
+    margin: inherit;
+}
+
+img {
+    vertical-align: middle;
+    width: 500px;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 81px;
+}
+
+#about {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 85px;
+}
+
+#about div {
+    display: flex;
+    justify-content: center;
+    padding-left: 12%;
+}
+
+p {
+    width: 50%;
+    font-size: 18px;
+}
+
+#projects1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 77%;
+    justify-content: flex-end;
+    padding-right: 1%;
+}
+
+.photos {
+    margin-right: 3%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+
+}
+
+img {
+    height: 290px;
+    width: 450px;
+    padding-bottom: 10px;
+    border-radius: 6%;
+}
+
+
+footer {
+    display: flex;
+   
+}
+
+.contact {
+    padding-left: 25px;
+    height: 60px;
+    margin-left: 95px;
+    margin-top: 35px;
+}
+
+.contact-items {
+    font-size: 15px;
+    padding-left: 50px;
+    margin: -38px;
+    align-items: center;
+}
+
+
+@media screen and (max-width:992px) {
+header {
+        color: red;
+    }
+}
+
+@media screen and (max-width:768px) {
+main {
+        color: red;;
+    }
+}
+
+@media screen and (max-width:576px) {
+footer {
+        color: red;;
+    }
+}
+
+
